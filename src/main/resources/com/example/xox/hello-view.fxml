@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<!--если нужен контроллер связанный с чемто то, здесь его прописывать нельзя в формате fx:controller иначе у модели и view будут разные контроллеры-->
+<VBox alignment="CENTER" spacing="10" xmlns:fx="http://javafx.com/fxml">
+    <padding>
+        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+    </padding>
+    <Label fx:id="welcomeText"/>
+    <VBox fx:id="model"> </VBox>
+</VBox>
